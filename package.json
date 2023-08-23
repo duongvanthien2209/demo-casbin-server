@@ -1,0 +1,26 @@
+{
+  "name": "bai1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casbin": "^5.26.2",
+    "casbin-mongoose-adapter": "^5.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.17.0",
+    "mongoose": "^7.4.4",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
